@@ -23,3 +23,6 @@ steps:
 
 images:
   - "gcr.io/$PROJECT_ID/sales-prediction-app"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
